@@ -26,35 +26,35 @@ const StatsSection = () => {
                         <p className='text-light font-outfit font-[900] text-[20px] pt-2'>Raven - Music Tracker</p>
                         <hr className='w-[100%] h-[1px] bg-neutral-800 mb-1 border-none' />
                         <p className='text-light font-google-sans font-[500] text-[20px]'>React.JS, Node.js, Postgres</p>
-                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto w-full' href="https://www.raven-music.com" target="_blank">Visit Raven</a>
+                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto w-full text-center mt-2' href="https://www.raven-music.com" target="_blank">Visit Raven</a>
                     </div>
                     <div className='border border-neutral-800 bg-neutral-900 p-[15px] rounded-[10px] w-full md:w-[45%] lg:w-[18%] m-2 flex flex-col'>
                         <img src={cinemateImg} className='w-full h-[180px] rounded-[5px]' alt="cinemate.com image" />
                         <p className='text-light font-outfit font-[900] text-[20px] pt-2'>Netflix Clone</p>
                         <hr className='w-[100%] h-[1px] bg-neutral-800 mb-1 border-none' />
                         <p className='text-light font-google-sans font-[400] text-[20px]'>HTML, CSS, JS, Python</p>
-                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto self-end' href="https://gaudycottonwood.github.io/cinemate_hosting/" target="_blank">Visit Cinemate</a>
+                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto w-full text-center mt-2' href="https://gaudycottonwood.github.io/cinemate_hosting/" target="_blank">Visit Cinemate</a>
                     </div>
                     <div className='border border-neutral-800 bg-neutral-900 p-[15px] rounded-[10px] w-full md:w-[45%] lg:w-[18%] m-2 flex flex-col'>
                         <img src={portfolioImg} className='w-full h-[180px] rounded-[5px]' alt="older portfolio image" />
                         <p className='text-light font-outfit font-[900] text-[20px] pt-2'>Portfolio version 1</p>
                         <hr className='w-[100%] h-[1px] bg-neutral-800 mb-1 border-none' />
                         <p className='text-light font-google-sans font-[400] text-[20px]'>HTML, CSS, JS, Bootstrap</p>
-                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto self-end' href="https://gaudycottonwood.github.io/portfolio-v1/" target="_blank">Visit Portfolio v1</a>
+                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto w-full text-center mt-2' href="https://gaudycottonwood.github.io/portfolio-v1/" target="_blank">Visit Portfolio v1</a>
                     </div>
                     <div className='border border-neutral-800 bg-neutral-900 p-[15px] rounded-[10px] w-full md:w-[45%] lg:w-[18%] m-2 flex flex-col'>
                         <img src={emojiGameImg} className='w-full h-[180px] rounded-[5px]' alt="emoji game image" />
                         <p className='text-light font-outfit font-[900] text-[20px] pt-2'>Emoji Game</p>
                         <hr className='w-[100%] h-[1px] bg-neutral-800 mb-1 border-none' />
                         <p className='text-light font-google-sans font-[400] text-[20px] pt-2'>React.JS</p>
-                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto self-end' href="https://gaudemojigame.ccbp.tech" target="_blank">Emoji Game</a>
+                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto w-full text-center mt-2' href="https://gaudemojigame.ccbp.tech" target="_blank">Emoji Game</a>
                     </div>
                     <div className='border border-neutral-800 bg-neutral-900 p-[15px] rounded-[10px] w-full md:w-[45%] lg:w-[18%] m-2 flex flex-col'>
                         <img src={restaurentImg} className='w-full h-[180px] rounded-[5px]' alt="restaurent page image" />
                         <p className='text-light font-outfit font-[900] text-[20px] pt-2'>Restaurent Page</p>
                         <hr className='w-[100%] h-[1px] bg-neutral-800 mb-1 border-none' />
                         <p className='text-light font-google-sans font-[400] text-[20px] pt-2'>HTML, CSS, Bootstrap</p>
-                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto self-end' href="https://gaudsrestaurent.ccbp.tech/" target="_blank">Restaurent Page</a>
+                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto w-full text-center mt-2' href="https://gaudsrestaurent.ccbp.tech/" target="_blank">Restaurent Page</a>
                     </div>
                 </div>
                 <p className='font-outfit font-[900] md:text-[40px] text-[20px] text-light mt-[30px]'>CERTIFICATIONS - <span><CountUp
