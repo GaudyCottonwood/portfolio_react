@@ -26,7 +26,7 @@ const StatsSection = () => {
                         <p className='text-light font-outfit font-[900] text-[20px] pt-2'>Raven - Music Tracker</p>
                         <hr className='w-[100%] h-[1px] bg-neutral-800 mb-1 border-none' />
                         <p className='text-light font-google-sans font-[500] text-[20px]'>React.JS, Node.js, Postgres</p>
-                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto self-end' href="https://www.raven-music.com" target="_blank">Visit Raven</a>
+                        <a className='text-dark hover:text-light font-google-sans font-[800] text-[20px] bg-light hover:transition-all hover:bg-neutral-800 hover:border-[1px] rounded-sm p-[5px] mt-auto w-full' href="https://www.raven-music.com" target="_blank">Visit Raven</a>
                     </div>
                     <div className='border border-neutral-800 bg-neutral-900 p-[15px] rounded-[10px] w-full md:w-[45%] lg:w-[18%] m-2 flex flex-col'>
                         <img src={cinemateImg} className='w-full h-[180px] rounded-[5px]' alt="cinemate.com image" />

@@ -5,6 +5,7 @@ import AboutSection from './components/aboutSection/AboutSections'
 import SkillsSection from './components/skillsSection/SkillsSection'
 import StatsSection from './components/statsSection/StatsSection'
 import ContactSection from './components/contactSection/ContactSection'
+import BuiltWith from './components/builtWith/BuiltWith'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SkillsSection />
       <StatsSection />
       <ContactSection />
+      <BuiltWith />
     </div>
   )
 }

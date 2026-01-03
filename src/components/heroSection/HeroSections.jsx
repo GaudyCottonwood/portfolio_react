@@ -5,10 +5,11 @@ import StaggeredMenu from '../../assets/react-bits/menu-comp/MenuBit';
 
 const HeroSection = () => {
     const menuItems = [
-        { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
-        { label: 'About', ariaLabel: 'Learn about us', link: '/about' },
-        { label: 'Services', ariaLabel: 'View our services', link: '/services' },
-        { label: 'Contact', ariaLabel: 'Get in touch', link: '/contact' }
+        { label: 'Home', ariaLabel: 'Go to home page', link: '#home' },
+        { label: 'About', ariaLabel: 'Learn about us', link: '#about' },
+        { label: 'Skills', ariaLabel: 'View my skills', link: '#skills' },
+        { label: 'Work', ariaLabel: 'View my work', link: '#stats' },
+        { label: 'Contact', ariaLabel: 'Get in touch', link: '#contact' }
     ];
 
     const socialItems = [
@@ -17,8 +18,9 @@ const HeroSection = () => {
         { label: 'LinkedIn', link: 'https://linkedin.com' }
     ];
     return (
-        <div className="relative">
+        <div className="relative" id="home">
             <StaggeredMenu
+                items={menuItems}
                 accentColor="#5F5544"
                 menuButtonColor="#0f0f0f"
                 className="h-screen overflow-hidden"
