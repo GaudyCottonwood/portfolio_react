@@ -5,7 +5,7 @@ import { SiGmail, SiLinkedin, SiGithub } from 'react-icons/si';
 
 const ContactSection = () => {
     return (
-        <div className='bg-light relative z-10 p-[30px] h-screen flex flex-row justify-around items-center' id='contact'>
+        <div className='bg-light relative z-10 p-[30px] h-screen flex md:flex-row flex-col justify-around items-center' id='contact'>
             <Shuffle
                 className='font-outfit font-bold text-[40px]'
                 text="Let's Connect"
