@@ -4,6 +4,7 @@ import HeroSection from './components/heroSection/HeroSections'
 import AboutSection from './components/aboutSection/AboutSections'
 import SkillsSection from './components/skillsSection/SkillsSection'
 import StatsSection from './components/statsSection/StatsSection'
+import ContactSection from './components/contactSection/ContactSection'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <AboutSection />
       <SkillsSection />
       <StatsSection />
+      <ContactSection />
     </div>
   )
 }
