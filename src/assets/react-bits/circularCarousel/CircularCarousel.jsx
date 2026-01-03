@@ -1,6 +1,16 @@
 import { Camera, Mesh, Plane, Program, Renderer, Texture, Transform } from 'ogl';
 import { useEffect, useRef } from 'react';
 
+import pythonImg from '../../../../src/assets/imgs/python.png';
+import reactImg from '../../../../src/assets/imgs/react.png';
+import nodeImg from '../../../../src/assets/imgs/node.png';
+import sqlImg from '../../../../src/assets/imgs/sql.png';
+import htmlImg from '../../../../src/assets/imgs/html.png';
+import cssImg from '../../../../src/assets/imgs/css.png';
+import jsImg from '../../../../src/assets/imgs/javascript.png';
+import tailwindImg from '../../../../src/assets/imgs/tailwindcss.png';
+import bootstrapImg from '../../../../src/assets/imgs/bootstrap.png';
+
 function debounce(func, wait) {
     let timeout;
     return function (...args) {
@@ -332,15 +342,15 @@ class App {
     }
     createMedias(items, bend = 1, textColor, borderRadius, font = 'bold 30px Arial') {
         const defaultItems = [
-            { image: "src/assets/imgs/python.png", text: 'Python' },
-            { image: "src/assets/imgs/react.png", text: 'React.JS' },
-            { image: "src/assets/imgs/node.png", text: 'Node.JS' },
-            { image: "src/assets/imgs/sql.png", text: 'SQL' },
-            { image: "src/assets/imgs/html.png", text: 'HTML' },
-            { image: "src/assets/imgs/css.png", text: 'CSS' },
-            { image: "src/assets/imgs/javascript.png", text: 'JavaScript' },
-            { image: "src/assets/imgs/tailwindcss.png", text: 'Tailwind CSS' },
-            { image: "src/assets/imgs/bootstrap.png", text: 'Bootstrap' }
+            { image: pythonImg, text: 'Python' },
+            { image: reactImg, text: 'React.JS' },
+            { image: nodeImg, text: 'Node.JS' },
+            { image: sqlImg, text: 'SQL' },
+            { image: htmlImg, text: 'HTML' },
+            { image: cssImg, text: 'CSS' },
+            { image: jsImg, text: 'JavaScript' },
+            { image: tailwindImg, text: 'Tailwind CSS' },
+            { image: bootstrapImg, text: 'Bootstrap' }
         ];
         const galleryItems = items && items.length ? items : defaultItems;
         this.mediasImages = galleryItems.concat(galleryItems);
