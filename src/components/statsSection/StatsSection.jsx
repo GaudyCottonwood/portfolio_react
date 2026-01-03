@@ -1,6 +1,7 @@
 import '../../index.css'
 
 import CountUp from '../../assets/react-bits/countUp/CountUp'
+import SpotlightCard from '../../assets/react-bits/spotlight/flashcard/SpotlightCard'
 
 const StatsSection = () => {
     return (
@@ -43,7 +44,7 @@ const StatsSection = () => {
                         <p className='text-light font-google-sans font-[400] text-[20px] pt-2'>React.JS</p>
                         <a className='text-dark hover:text-light font-google-sans font-[400] text-[20px] bg-light hover:transition-all hover:bg-dark hover:border-[1px] rounded-sm p-[3px] mt-auto self-end' href="https://gaudemojigame.ccbp.tech" target="_blank">Visit Emoji Game</a>
                     </div>
-                    <div className='border border-light p-[15px] rounded-[10px] w-full md:w-[45%] lg:w-[18%] m-2 flex flex-col'>
+                    <div className='border border-neutral-800 bg-neutral-900 p-[15px] rounded-[10px] w-full md:w-[45%] lg:w-[18%] m-2 flex flex-col'>
                         <img src="src/assets/imgs/restaurent_page.png" className='w-full h-[180px] pt-2' alt="restaurent page image" />
                         <p className='text-light font-outfit font-[900] text-[20px] pt-2'>Restaurent Page</p>
                         <hr className='w-[100%] h-[1px] bg-light mb-1 border-none' />
@@ -58,6 +59,15 @@ const StatsSection = () => {
                     delay={0.3}
                     className="text-center text-[20px] font-outfit font-[900] text-light md:text-[40px]"
                 /></span></p>
+                <div>
+                    <SpotlightCard className="" spotlightColor="rgba(215, 220, 221, 0.78)">
+                        <div className='text-light'>
+                            <h1>Database Management with SQL</h1>
+                            <p>Issued by: Oracle</p>
+                            <p>Issued on: 2024</p>
+                        </div>
+                    </SpotlightCard>
+                </div>
             </div>
         </div>
     )
